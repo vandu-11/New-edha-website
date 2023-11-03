@@ -1,0 +1,26 @@
+/* About.css */
+
+.header {
+     /* Replace 'your-image-url.jpg' with the URL of your background image */
+    background-size: cover;
+    background-position: center;
+    color: #0b0a0a;
+    text-align: left;
+    padding: 20px;
+    height: 100%;
+    width:950px;
+    height:1150px;
+    
+
+    
+  }
+  
+  .content {
+    background-color: white; /* Background color for the content area */
+    padding: 20px;
+    color: black;
+    width:1000px;
+  
+
+  }
+  

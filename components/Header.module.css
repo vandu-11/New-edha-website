@@ -1,0 +1,77 @@
+/* Common styles for both laptop and mobile views */
+.p1 {
+  background-color: rgba(228, 158, 52, 0.669);
+  height: 30px;
+  align-items: center;
+  padding-top: 5px;
+  margin: 0;
+  text-align: center;
+  width:1000px;
+  height:80px;
+  font-size: 50px;;
+
+}
+
+.icon {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  color: white;
+  background-color: rgb(30, 140, 107);
+  height: 60px;
+  margin-top: -10px;
+  padding-top: 10px;
+  width:1000px;
+  height: 100px;
+  font-size: 20px;
+}
+
+.icons {
+  float: left;
+}
+
+.icons i {
+  padding: 20px;
+}
+
+.logo {
+  width: 100px; /* Adjust the width as needed */
+  height: 100px; /* This maintains the aspect ratio */
+}
+
+.part1 p {
+  display: inline;
+  padding: 0 50px;
+  height: 100px;;
+  font-size: 30px; /* Padding applied to the left and right */
+}
+
+/* Media query for laptop view */
+@media (min-width: 768px) {
+  .part1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align items to the center */
+    background-color: rgba(228, 158, 52, 0.669);
+    height: 120px;
+    width:1000px;
+  }
+
+  /* Other laptop-specific styles remain the same */
+}
+
+/* Media query for mobile view */
+@media (max-width: 767px) {
+  .part1 {
+    flex-direction: column;
+    align-items: center; /* Center items vertically */
+    background-color: rgba(228, 158, 52, 0.669);
+    height: auto;
+    width:1000px;
+    padding: -20px;
+  }
+
+
+  /* Other mobile-specific styles remain the same */
+}
+
+
